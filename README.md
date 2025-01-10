@@ -22,6 +22,4 @@ weight derivatives, is used to adjust the model's parameters as it processes tra
 Dataset: Housing Price Prediction Data -
 https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
-Model Testing Information: This model is tested on both the training and testing datasets, predicting the average price for homes in both the training and testing data. Information for the model's mean absolute error on both
-the training and testing data is presented when the model is ran. The model’s mean absolute error on both
-the training and testing data are at around 3% and differ by around 0.1%, indicating the model’s strong predictive performance and ability to generalize to data beyond the training data.
+Model Testing Information: This model is tested on both the training and testing datasets, predicting the average price for homes in both the training and testing data. Information for the model's mean absolute percentage error on both the training and testing data and associated percent error is presented when the model is ran. The model’s mean absolute percentage error on both the training and testing data are at around 3% and differ by around 0.1%, indicating the model’s strong predictive performance and ability to generalize to data beyond the training data.
