@@ -1,7 +1,7 @@
 # housing_price_prediction_model
 A model for predicting home prices in low-income areas in the US.
 
-Detailed Description: This program is a neural network model designed to predict housing prices for homes
+Description: This program is a neural network model designed to predict housing prices for homes
 in low-income areas in the US based on 5 pieces of information about a given house: 
 its square feet, number of bedrooms, number of bathrooms, type of neighborhood, and age. 
 This neural network consists of 9 layers in a 256 X 128 X 64 X 32 X 16 X 8 X 4 X 2 X 1 neuron 
@@ -13,3 +13,9 @@ a weight for the bias. A user is prompted to enter information about a given hou
 calculates its prediction for the fair market price of the house. The model uses data from 50,000
 homes, the first 70% of which (35,000 homes) is used for data with the later 30% (15,000 homes)
 used for testing.
+
+DATASET: Housing Price Prediction Data -
+https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
+Model Testing
+
+Model Testing Information: This model is tested on both the training and testing datasets, predicting the average price for homes in both the training and testing data. When the model is ran, information related to the model’s prediction for the average price, the true average price, and the percent error, for homes in the training and testing data are presented. The model’s training error and testing error are at around 3% and differ by around 0.1%, indicating the model’s strong predictive performance and ability to generalize to data beyond the training data.
