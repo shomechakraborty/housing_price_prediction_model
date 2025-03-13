@@ -46,8 +46,9 @@ occupants helps to mitigate Legacy Bias in the model. However, possible sources 
 the model in predicting housing prices may come from variability in housing prices and markets between different cities 
 and regions in the US.
 
-I hope to build upon these applications in future work and projects and better learns ways to develop more efficient
-information and data-processing systems during college.
+As this is my first time working with Neural Networks, I hope to learn better ways to develop more efficient
+information and data-processing systems as I move on to college and work on new project and activities building
+off of this project.
 
 
 DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/12/2025
