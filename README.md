@@ -46,10 +46,9 @@ occupants helps to mitigate Legacy Bias in the model. However, possible sources 
 the model in predicting housing prices may come from variability in housing prices and markets between different cities 
 and regions in the US.
 
-As this is my first time working with Neural Networks, I hope to learn better ways to develop more efficient
-information and data-processing systems as I move on to college and work on new projects and activities building
-off of this project. For future projects, I aim to implement methods such as Min-Max scaling
-and Z-Score Normalization as well as other methods of Deep Learning such as K-Means Clustering.
+I hope to learn better ways to develop more efficient information and data-processing systems as I move on to college and 
+work on new projects and activities building off of this project. For future projects, I aim to implement methods such as 
+Min-Max scaling and Z-Score Normalization as well as other methods of Deep Learning such as K-Means Clustering.
 
 
 DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/12/2025
