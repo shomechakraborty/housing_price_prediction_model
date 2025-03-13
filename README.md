@@ -37,15 +37,17 @@ Conclusion: I greatly enjoyed working on this project because I was able to prac
 high-level Mathematical and Data Science concepts I learned in a real-world financial and societal application -
 housing markets. What I hoped to accomplish with this project was to what degree we can use specific 
 quantitative and socioeconomic parameters related to housing, that being square feet, number of
-bedrooms, type of neighborhood, and age, in order to value housing. Utilizing this predictionmodel for the given
+bedrooms, type of neighborhood, and age, in order to value housing. Utilizing this prediction model for the given
 parameters along other kinds of socioeconomic parameters such as average income and wealth extrapolated to various 
 kinds of neighborhoods in the US can be useful in examining important socioeconomic issues such as affordability. 
-I hope to build upon these applications in future work and projects during college. Given the unfortunate historical 
-use of redlining - which served to deflate the pricing of homes in neighborhoods predominantly
+Given the unfortunate historical use of redlining - which served to deflate the pricing of homes in neighborhoods predominantly
 occupied by people of color, the avoidance of use of demographic factors such as race and ethnicity by home 
 occupants helps to mitigate Legacy Bias in the model. However, possible sources of error which may exist in 
 the model in predicting housing prices may come from variability in housing prices and markets between different cities 
 and regions in the US.
+
+I hope to build upon these applications in future work and projects and better learns ways to develop more efficient
+information and data-processing systems during college.
 
 
 DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/12/2025
