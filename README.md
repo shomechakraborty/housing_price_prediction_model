@@ -44,11 +44,18 @@ Given the unfortunate historical use of redlining - which served to deflate the 
 occupied by people of color, the avoidance of use of demographic factors such as race and ethnicity by home 
 occupants helps to mitigate Legacy Bias in the model. However, possible sources of error which may exist in 
 the model in predicting housing prices may come from variability in housing prices and markets between different cities 
-and regions in the US.
+and regions in the US. 
 
-I hope to learn better ways to develop more efficient information and data-processing systems as I move on to college and 
-work on new projects and activities building off of this project. For future projects, I aim to implement methods such as 
-Min-Max scaling and Z-Score Normalization as well as other methods of Deep Learning such as K-Means Clustering.
+An additional issue in the dataset used for this model was the vast differences in the numerical ranges between data input 
+parameters, which ranged from single digits to thousands, and target values (home prices), which ranged in the hundreds of thousands.
+In order to address this issue, I utilized a very low learning rate hyperparameter. However, while the model was able
+to achieve a low error rate, this low learning rate caused it to converge very slowly. As such, for future projects,
+I will look to utilize methods such as Min-Max scaling as well as Z-Score Normalization to better scale input and output
+values so they are off similar numerical range.
+
+As I move on to college, I plan to learn better ways to develop more efficient information and data-processing systems 
+for new projects and activities building off of this work, including developing softwares for other methods of Deep
+Learning such as K-Means Clustering. 
 
 
-DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/12/2025
+DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/13/2025
