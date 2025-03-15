@@ -31,7 +31,7 @@ price for homes in both the training and testing data. Information related for t
 true average price, and the associated percent error rate of the Mean Absolute Error (MAE) relative to the true average 
 price (which serves to normalize the MAE), for homes in both the training and testing data, are presented. The model’s 
 training error and testing error rates are at around 3% and differ by around 0.1%, indicating the model’s strong predictive 
-performance and ability to generalize to data beyond the training data.
+performance and ability to generalize to homes beyond the training data.
 
 Conclusion: I greatly enjoyed working on this project because I was able to practice utilize
 high-level Mathematical and Data Science concepts I learned in a real-world financial and societal application -
