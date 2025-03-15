@@ -42,11 +42,12 @@ parameters along other kinds of socioeconomic parameters such as average income 
 kinds of neighborhoods in the US can be useful in examining important socioeconomic issues such as affordability. 
 Given the unfortunate historical use of redlining - which served to deflate the pricing of homes in neighborhoods predominantly
 occupied by people of color, the avoidance of use of demographic factors such as race and ethnicity by home 
-occupants helps to mitigate Legacy Bias in the model. However, possible sources of error which may exist in 
-the model in predicting housing prices may come from variability in housing prices and markets between different cities 
-and regions in the US. 
+occupants helps to mitigate Legacy Bias in the model. 
 
-An additional issue in the dataset used for this model was the vast differences in the numerical ranges between data input 
+Sources of Contraints and Potential Error: It is important to keep in mind that the scope of this model is limited to low-to-mid income 
+socioeconomic areas, as that is the scope of ares represented by the homes in the training dataset. Possible sources of error which may exist in 
+the model in predicting housing prices may come from variability in housing prices and markets between different cities 
+and regions in the US. An additional issue in the dataset used for this model was the vast differences in the numerical ranges between data input 
 parameters, which ranged from single digits to thousands, and target values (home prices), which ranged in the hundreds of thousands.
 In order to address this issue, I utilized a very low learning rate hyperparameter. However, while the model was able
 to achieve a low error rate, this low learning rate caused it to converge more slowly. As such, for future projects,
@@ -58,4 +59,4 @@ for new projects and activities building off of this work, including developing 
 Learning such as K-Means Clustering. 
 
 
-DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/14/2025
+README DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/15/2025
