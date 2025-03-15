@@ -49,7 +49,7 @@ and regions in the US.
 An additional issue in the dataset used for this model was the vast differences in the numerical ranges between data input 
 parameters, which ranged from single digits to thousands, and target values (home prices), which ranged in the hundreds of thousands.
 In order to address this issue, I utilized a very low learning rate hyperparameter. However, while the model was able
-to achieve a low error rate, this low learning rate caused it to converge very slowly. As such, for future projects,
+to achieve a low error rate, this low learning rate caused it to converge more slowly. As such, for future projects,
 I will look to utilize methods such as Min-Max scaling as well as Z-Score Normalization to better scale input and output
 values so they are off similar numerical range.
 
@@ -58,4 +58,4 @@ for new projects and activities building off of this work, including developing 
 Learning such as K-Means Clustering. 
 
 
-DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/13/2025
+DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/14/2025
