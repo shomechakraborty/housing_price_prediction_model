@@ -44,7 +44,7 @@ Given the unfortunate historical use of redlining - which served to deflate the 
 occupied by people of color, the avoidance of use of demographic factors such as race and ethnicity by home 
 occupants helps to mitigate Legacy Bias in the model. 
 
-Sources of Contraints and Potential Error: It is important to keep in mind that the scope of this model is limited to low-to-mid income 
+Constraints and Sources of Potential Error: It is important to keep in mind that the scope of this model is limited to low-to-mid income 
 socioeconomic areas, as that is the scope of ares represented by the homes in the training dataset. Possible sources of error which may exist in 
 the model in predicting housing prices may come from variability in housing prices and markets between different cities 
 and regions in the US. An additional issue in the dataset used for this model was the vast differences in the numerical ranges between data input 
