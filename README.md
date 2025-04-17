@@ -1,6 +1,6 @@
 # housing_price_prediction_model
 
-Dataset: Housing Price Prediction Data -
+Training Dataset: Housing Price Prediction Data -
 https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
 Description: This program is a learning model designed to predict housing prices for homes
