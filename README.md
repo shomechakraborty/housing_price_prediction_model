@@ -1,7 +1,7 @@
 # housing_price_prediction_model
 A model for predicting home prices in low-income areas in the US.
 
-Description: This program is a neural network model designed to predict housing prices for homes
+Description: This program is a Machine Learning-based learning model designed to predict housing prices for homes
 in low-income areas in the US based on 5 pieces of information about a given house: 
 its square feet, number of bedrooms, number of bathrooms, type of neighborhood, and age. 
 The model is trained by a large amount of housing data about previously sold houses in the 
@@ -54,9 +54,4 @@ to achieve a low error rate, this low learning rate caused it to converge more s
 I will look to utilize methods such as Min-Max scaling as well as Z-Score Normalization to better scale input and output
 values so they are off similar numerical range.
 
-As I move on to college, I plan to learn better ways to develop more efficient information and data-processing systems 
-for new projects and activities building off of this work, including developing softwares for other methods of Deep
-Learning such as K-Means Clustering. 
 
-
-README DOCUMENTATION UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON THE MODEL: 03/31/2025
