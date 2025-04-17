@@ -1,5 +1,7 @@
 # housing_price_prediction_model
-A model for predicting home prices in low-income areas in the US.
+
+Dataset: Housing Price Prediction Data -
+https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
 Description: This program is a learning model designed to predict housing prices for homes
 in low-income areas in the US based on 5 pieces of information about a given house: 
@@ -13,18 +15,7 @@ calculates its prediction for the fair market price of the house. The model uses
 homes, the first 70% of which (35,000 homes) is used for data with the later 30% (15,000 homes)
 used for testing.
 
-Functionality: This model consists of 9 layers in a 256 X 128 X 64 X 32 X 16 X 8 X 4 X 2 X 1
-neuron layout. The model utilizes explicit Target Propagation and Direct Feedback mechanism
-for processing data through its multi-layer structure for both training and prediction. 
-The model uses the Rectified Linear Unit Activation Function when processing weighted input values 
-in each neuron. Stochastic weight updating with a squared error cost function, using Chain Rule-based 
-weight derivatives, is used to adjust the model's parameters as it processes training data. The neighborhood 
-parameter in the dataset was quantified with the guideline: rural neighborhoods were given a value of 1, suburban 2, and
-urban 3. This guideline was meant to give homes in more populated area higher quantitative values
-in the prediction of their price.
-
-Dataset: Housing Price Prediction Data -
-https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
+Functionality: This model consists of 9 layers in a 256 X 128 X 64 X 32 X 16 X 8 X 4 X 2 X 1 neuron layout (inspired by neural networks). The model utilizes explicit Target Propagation and Direct Feedback mechanism for processing data through its multi-layer structure for both training and prediction. The Rectified Linear Unit Activation Function is used to process weighted input values in each neuron. Stochastic weight updating with a squared error cost function, using Chain Rule-based weight derivatives, is used to adjust the model's parameters as it processes training data. The neighborhood parameter in the dataset was quantified with the guideline: rural neighborhoods were given a value of 1, suburban 2, and urban 3. This guideline was meant to give homes in more populated area higher quantitative values in the prediction of their price.
 
 Model Testing Information: This model is tested on both the training and testing datasets, predicting the average 
 price for homes in both the training and testing data. Information related for the model’s predicted average price, 
