@@ -1,7 +1,7 @@
 # housing_price_prediction_model
 A model for predicting home prices in low-income areas in the US.
 
-Description: This program is a Machine Learning-based learning model designed to predict housing prices for homes
+Description: This program is a neural network model designed to predict housing prices for homes
 in low-income areas in the US based on 5 pieces of information about a given house: 
 its square feet, number of bedrooms, number of bathrooms, type of neighborhood, and age. 
 The model is trained by a large amount of housing data about previously sold houses in the 
@@ -14,12 +14,12 @@ homes, the first 70% of which (35,000 homes) is used for data with the later 30%
 used for testing.
 
 Functionality: This model consists of 9 layers in a 256 X 128 X 64 X 32 X 16 X 8 X 4 X 2 X 1
-neuron layout. The model utilizes forward propagation for processing data through its multi-layer 
-structure for both training and prediction. The model uses the Rectified Linear Unit Activation 
-Function when processing weighted input values in each neuron. Stochastic Gradient descent
-with a squared error cost function, using Calculus-based weight derivatives, is used to adjust 
-the model's parameters as it processes training data. The neighborhood parameter in the dataset
-was quantified with the guideline: rural neighborhoods were given a value of 1, suburban 2, and
+neuron layout. The model utilizes explicit Target Propagation and Direct Feedback mechanism
+for processing data through its multi-layer structure for both training and prediction. 
+The model uses the Rectified Linear Unit Activation Function when processing weighted input values 
+in each neuron. Stochastic Gradient descent with a squared error cost function, using Chain Rule-based 
+weight derivatives, is used to adjust the model's parameters as it processes training data. The neighborhood 
+parameter in the dataset was quantified with the guideline: rural neighborhoods were given a value of 1, suburban 2, and
 urban 3. This guideline was meant to give homes in more populated area higher quantitative values
 in the prediction of their price.
 
