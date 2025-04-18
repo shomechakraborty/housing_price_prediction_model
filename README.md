@@ -1,5 +1,7 @@
 # housing_price_prediction_model
 
+Full Project Documentation: https://drive.google.com/file/d/1jGGxC8g03FznijtfAb1R7xEQTj9OLDsC/view?usp=sharing
+
 Training Dataset: Housing Price Prediction Data -
 https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
 
